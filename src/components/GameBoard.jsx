@@ -4,7 +4,12 @@ const initialGameBoard = [
     [null, null, null]
 ]
 
-export default function GameBoard({ onsSelectSqaure }) {
+export default function GameBoard({ onsSelectSqaure, turns }) {
+    let gameBoard = initialGameBoard;
+
+    for (const turn of turns) {
+        const { square, player } = turn;
+    }
 
 
     return (<ol id="game-board">
