@@ -9,6 +9,9 @@ export default function GameBoard({ onsSelectSqaure, turns }) {
 
     for (const turn of turns) {
         const { square, player } = turn;
+        const { row, col } = square;
+
+        gameBoard[row][col] = player;
     }
 
 
