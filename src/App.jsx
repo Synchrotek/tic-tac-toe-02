@@ -43,7 +43,7 @@ function App() {
             isActive={activePlayer === 'O'}
           />
         </ol>
-
+        <hr />
         <GameBoard
           onsSelectSqaure={handleSelectSqaure}
           turns={gameTurns}
