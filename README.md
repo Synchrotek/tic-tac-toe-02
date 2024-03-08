@@ -1,1 +1,1 @@
-It is tic-tac-toe-um
+It is tic-tac-toe project made by following best practices
