@@ -50,7 +50,7 @@ function App() {
         />
       </div>
 
-      <Log />
+      {/* <Log /> */}
     </main>
   )
 }
